@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #0A090B;
+  --font-primary: #0A090B;
+  --font-secondary: #FFFFFF;
+  --button-primary: #0A090B;
+  --button-secondary: #FFFFFF; 
+}

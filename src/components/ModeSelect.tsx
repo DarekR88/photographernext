@@ -17,7 +17,7 @@ export function ModeSelect({ children }: ModeSelectProps) {
 
   return (
     <>
-      <body className={`text-black ${isDark ? "text-xl" : "txt-2xl"}`}>
+      <body className={`${isDark ? "text-white bg-black" : "text-black bg-white"}`}>
         {children}
       </body>
     </>
