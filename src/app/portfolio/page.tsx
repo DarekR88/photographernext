@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { PortfolioNav } from "@/components/PortfolioNav";
 
-export function Portfolio() {
+export default function Portfolio() {
   return (
     <>
       <PortfolioNav />
