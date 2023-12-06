@@ -3,10 +3,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { PortfolioNav } from "@/components/PortfolioNav";
-import BalloonImage from "../../../../public/images/balloon-kyle-hinkson-xyXcGADvAwE-unsplash.jpg";
-import CoupleImage from "../../../../public/images/eugenivy_now-1Bs2sZ9fD2Q-unsplash.jpg";
-import GraduationImage from "../../../../public/images/rut-miit-3EMw3T-ZjkE-unsplash.jpg";
-import FamilyImage from "../../../../public/images/jessica-rockowitz-5NLCaz2wJXE-unsplash.jpg";
+import BalloonImage from "../../../../public/images/ziphaus-dQyfiYNJoHw-unsplash.jpg";
+import CoupleImage from "../../../../public/images/payton-tuttle-RFFR1JjkJx8-unsplash.jpg";
+import GraduationImage from "../../../../public/images/ivan-kazlouskij-gKR4mOceulU-unsplash.jpg";
+import FamilyImage from "../../../../public/images/bibek-thakuri-FzYWk0MPmdw-unsplash.jpg";
 
 export default function HeadShots() {
   return (
