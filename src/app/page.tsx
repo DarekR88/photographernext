@@ -35,8 +35,8 @@ export default function Home() {
       <div className="max-w-[1200px] flex m-auto">
         <div
           onMouseEnter={handleHoverOne}
-          className={`overflow-hidden z-0 transition duration-500 ease-in-out ${
-            isBigOne ? "w-1/2" : "w-1/4"
+          className={`overflow-hidden z-0 ${
+            isBigOne ? "transition-all ease-in-out w-1/2 duration-500" : "transition-all ease-in-out w-1/4 duration-500"
           }`}
         >
           <p className="text-black rounded-br-md bg-white px-2 absolute z-10">
@@ -50,8 +50,8 @@ export default function Home() {
         </div>
         <div
           onMouseEnter={handleHoverTwo}
-          className={`overflow-hidden transition duration-500 ease-in-out ${
-            isBigTwo ? "w-1/2" : "w-1/4"
+          className={`overflow-hidden ${
+            isBigTwo ? "transition-all ease-in-out w-1/2 duration-500" : "transition-all ease-in-out w-1/4 duration-500"
           }`}
         >
           <p className="text-black rounded-br-md bg-white px-2 absolute z-10">
@@ -65,7 +65,9 @@ export default function Home() {
         </div>
         <div
           onMouseEnter={handleHoverThree}
-          className={`overflow-hidden transition duration-500 ease-in-out ${isBigThree ? "w-1/2" : "w-1/4"}`}
+          className={`overflow-hidden ${
+            isBigThree ? "transition-all ease-in-out w-1/2 duration-500" : "transition-all ease-in-out w-1/4 duration-500"
+          }`}
         >
           <p className="text-black rounded-br-md bg-white px-2 absolute z-10">
             Family Portraits
