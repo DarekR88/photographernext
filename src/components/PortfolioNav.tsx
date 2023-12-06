@@ -5,7 +5,8 @@ import Link from "next/link";
 export function PortfolioNav() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row w-screen text-center">
+      <div className="max-w-[1200px] text-center m-auto mt-4 gap-3 flex lg:justify-center flex-col lg:flex-row lg:gap-10">
+        <Link href={"/portfolio"}>All</Link>
         <Link href={"/portfolio/weddingsevents"}>Weddings & Events</Link>
         <Link href={"/portfolio/headshots"}>Head Shots</Link>
         <Link href={"/portfolio/familyportraits"}>Family Portraits</Link>
