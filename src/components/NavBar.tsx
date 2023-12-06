@@ -22,7 +22,7 @@ export function NavBar() {
   return (
     <>
       <div
-        className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
+        className={`fixed flex flex-col w-screen h-screen z-10 text-center pt-20 gap-8 ${
           isOpen
             ? "transition ease-in-out translate-y-0 duration-500"
             : "transition ease-in-out -translate-y-full duration-500"
@@ -31,26 +31,11 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/">
           Home
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/howitworks">
-          How it Works
-        </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/pricing">
-          Pricing
-        </Link>
-        {/* <Link onClick={handleClick} className="text-3xl" href="/programs">
-          Programs
-        </Link> */}
-        {/* <Link onClick={handleClick} className="text-3xl" href="/nutrition">
-          Nutrition
-        </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/testimonials">
-          Testimonials
-        </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/contact">
+        <Link onClick={handleClick} className="text-3xl" href="/requestservice">
           Contact
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/about">
-          About
+        <Link onClick={handleClick} className="text-3xl" href="/portfolio">
+          Blog
         </Link>
       </div>
       <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-24">
@@ -62,8 +47,8 @@ export function NavBar() {
         >
           <Image src={PhoneSvg} alt="pfp" width={23} />
         </a>
-        <Link href={"/"} className="font-Raleway text-xl z-0 px-3">
-          Maximum Fitness
+        <Link href={"/"} className="text-xl z-0 px-3">
+          Montanez photography
         </Link>
         <a
           href="tel:408-761-4606"
@@ -112,24 +97,6 @@ export function NavBar() {
           </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/howitworks">
             How it Works
-          </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/pricing">
-            Pricing
-          </Link>
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/programs">
-            Programs
-          </Link> */}
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/nutrition">
-            Nutrition
-          </Link> */}
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/testimonials">
-            Testimonials
-          </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
-            Contact
-          </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
-            About
           </Link>
         </div>
         <div className="flex gap-8 px-2 z-0">
