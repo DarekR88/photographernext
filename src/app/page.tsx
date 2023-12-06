@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import WeddingImage from "../../public/images/leonardo-miranda-riHGdvluDk8-unsplash.jpg";
 import WomanImage from "../../public/images/tamara-bellis-2Tv7-O13hgk-unsplash.jpg";
-import FamilyImage from "../../public/images/nikola-saliba-BonFa3wUrnU-unsplash.jpg";
+import FamilyImage from "../../public/images/jonathan-borba-DUrU_bZV8So-unsplash.jpg";
 
 export default function Home() {
   const [isBigOne, setIsBigOne] = useState(true);
@@ -32,14 +32,14 @@ export default function Home() {
 
   return (
     <>
-      <div className="max-w-[1200px] flex m-auto">
+      <div className="max-w-[1200px] flex flex-col lg:flex-row m-auto lg:mt-4">
         <div
           onMouseEnter={handleHoverOne}
-          className={`overflow-hidden z-0 ${
-            isBigOne ? "transition-all ease-in-out w-1/2 duration-500" : "transition-all ease-in-out w-1/4 duration-500"
+          className={`overflow-hidden z-0 w-screen ${
+            isBigOne ? "lg:transition-all ease-in-out lg:w-1/2 lg:duration-500" : "lg:transition-all ease-in-out lg:w-1/4 lg:duration-500"
           }`}
         >
-          <p className="text-black rounded-br-md bg-white px-2 absolute z-10">
+          <p className="text-black rounded-br-md bg-white px-2 absolute">
             Weddings & Events
           </p>
           <Image
@@ -51,10 +51,10 @@ export default function Home() {
         <div
           onMouseEnter={handleHoverTwo}
           className={`overflow-hidden ${
-            isBigTwo ? "transition-all ease-in-out w-1/2 duration-500" : "transition-all ease-in-out w-1/4 duration-500"
+            isBigTwo ? "lg:transition-all ease-in-out lg:w-1/2 lg:duration-500" : "lg:transition-all ease-in-out lg:w-1/4 lg:duration-500"
           }`}
         >
-          <p className="text-black rounded-br-md bg-white px-2 absolute z-10">
+          <p className="text-black rounded-br-md bg-white px-2 absolute">
             Head Shots & Modeling
           </p>
           <Image
@@ -66,10 +66,10 @@ export default function Home() {
         <div
           onMouseEnter={handleHoverThree}
           className={`overflow-hidden ${
-            isBigThree ? "transition-all ease-in-out w-1/2 duration-500" : "transition-all ease-in-out w-1/4 duration-500"
+            isBigThree ? "lg:transition-all ease-in-out lg:w-1/2 lg:duration-500" : "lg:transition-all ease-in-out lg:w-1/4 lg:duration-500"
           }`}
         >
-          <p className="text-black rounded-br-md bg-white px-2 absolute z-10">
+          <p className="text-black rounded-br-md bg-white px-2 absolute">
             Family Portraits
           </p>
           <Image
