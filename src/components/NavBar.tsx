@@ -31,14 +31,14 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/">
           Home
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/requestservice">
-          Contact
-        </Link>
         <Link onClick={handleClick} className="text-3xl" href="/portfolio">
-          Blog
+          Portfolio
+        </Link>
+        <Link onClick={handleClick} className="text-3xl" href="/requestservice">
+          Request Service
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-24">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-24">
         <a
           href="tel:408-761-4606"
           target="_blank"
@@ -48,7 +48,7 @@ export function NavBar() {
           <Image src={PhoneSvg} alt="pfp" width={23} />
         </a>
         <Link href={"/"} className="text-xl z-0 px-3">
-          Montanez photography
+          Insight photography
         </Link>
         <a
           href="tel:408-761-4606"
@@ -95,8 +95,11 @@ export function NavBar() {
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/howitworks">
-            How it Works
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/portfolio">
+            Portfolio
+          </Link>
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/requestservice">
+            Request Service
           </Link>
         </div>
         <div className="flex gap-8 px-2 z-0">
