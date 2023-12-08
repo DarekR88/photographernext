@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="max-w-[1200px] flex flex-col lg:flex-row m-auto lg:mt-4">
+      <div className="max-w-[1200px] flex flex-col gap-3 lg:gap-0 lg:flex-row m-auto mt-3 lg:mt-4">
         <div
           onMouseEnter={handleHoverOne}
           className={`overflow-hidden z-0 w-screen ${
@@ -43,7 +43,7 @@ export default function Home() {
         >
           <Link href={"/portfolio/weddingsevents"}>
             <p
-              className={`h-[28px] mb-2 ${
+              className={`h-[28px] lg:mb-2 ${
                 isBigOne
                   ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500"
                   : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"
@@ -68,7 +68,7 @@ export default function Home() {
         >
           <Link href={"/portfolio/headshots"}>
             <p
-              className={`h-[28px] mb-2 ${
+              className={`h-[28px] lg:mb-2 ${
                 isBigTwo
                   ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500"
                   : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"
@@ -93,7 +93,7 @@ export default function Home() {
         >
           <Link href={"/portfolio/familyportraits"}>
             <p
-              className={`h-[28px] mb-2 ${
+              className={`h-[28px] lg:mb-2 ${
                 isBigThree
                   ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500"
                   : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"
