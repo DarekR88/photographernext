@@ -42,7 +42,13 @@ export default function Home() {
           }`}
         >
           <Link href={"/portfolio/weddingsevents"}>
-            <p className={`h-[28px] mb-2 ${isBigOne ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500" : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"}`}>
+            <p
+              className={`h-[28px] mb-2 ${
+                isBigOne
+                  ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500"
+                  : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"
+              }`}
+            >
               Weddings & Events
             </p>
             <Image
@@ -61,7 +67,13 @@ export default function Home() {
           }`}
         >
           <Link href={"/portfolio/headshots"}>
-            <p className={`h-[28px] mb-2 ${isBigTwo ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500" : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"}`}>
+            <p
+              className={`h-[28px] mb-2 ${
+                isBigTwo
+                  ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500"
+                  : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"
+              }`}
+            >
               Head Shots & Modeling
             </p>
             <Image
@@ -80,7 +92,13 @@ export default function Home() {
           }`}
         >
           <Link href={"/portfolio/familyportraits"}>
-            <p className={`h-[28px] mb-2 ${isBigThree ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500" : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"}`}>
+            <p
+              className={`h-[28px] mb-2 ${
+                isBigThree
+                  ? "lg:transition-all ease-in-out lg:text-3xl lg:duration-500"
+                  : "lg:transition-all ease-in-out lg:text-xl lg:duration-500"
+              }`}
+            >
               Family Portraits
             </p>
             <Image
@@ -91,10 +109,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="flex max-w-[1200px] m-auto text-center justify-center">
+      <div className="flex max-w-[1200px] m-auto px-3 my-4 text-center justify-center lg:my-9">
         <div className="relative"></div>
-        <div></div>
-        <p className="py-3 lg:py-10 lg:w-[600px]">
+        <div className="hidden lg:block lg:absolute z-0 lg:h-[176px] lg:w-[600px] lg:bg-bg-tertiary lg:border-2 lg:border-black"></div>
+        <p className="py-3 lg:py-10 lg:w-[600px] z-10">
           <span>A</span>t Insight photography we capture the highest quality
           images from the best angles for any event. You never have to worry
           about missing a precious moment. If you're looking for family

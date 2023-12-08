@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         "bg-primary": "var(--bg-primary)",
         "bg-secondary": "var(--bg-secondary)",
+        "bg-tertiary": "var(--bg-tertiary)",
         "font-primary": "var(--font-primary)",
         "font-secondary": "var(--font-secondary)",
         "button-primary": "var(--button-primary)",
