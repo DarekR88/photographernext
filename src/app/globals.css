@@ -7,8 +7,10 @@
 :root {
   --bg-primary: #FFFFFF;
   --bg-secondary: #0A090B;
+  --bg-tertiary: #D6DFEB;
   --font-primary: #0A090B;
   --font-secondary: #FFFFFF;
   --button-primary: #0A090B;
   --button-secondary: #FFFFFF; 
 }
+
