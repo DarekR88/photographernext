@@ -111,7 +111,7 @@ export default function Home() {
       </div>
       <div className="flex max-w-[1200px] m-auto px-3 my-4 text-center justify-center lg:my-9">
         <div className="relative"></div>
-        <div className="hidden lg:block lg:absolute z-0 lg:h-[176px] lg:w-[600px] lg:bg-bg-tertiary lg:border-2 lg:border-black"></div>
+        <div className="hidden lg:block lg:absolute z-0 lg:h-[176px] lg:w-[650px] lg:bg-bg-tertiary lg:border-2 lg:border-black"></div>
         <p className="py-3 lg:py-10 lg:w-[600px] z-10">
           <span>A</span>t Insight photography we capture the highest quality
           images from the best angles for any event. You never have to worry
