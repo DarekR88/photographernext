@@ -7,7 +7,7 @@ export default function RequestService() {
   return (
     <>
       <p className="text-center py-4 lg:py-6">Request Service</p>
-      <div className="flex max-w-[600px] m-auto text-center py-4 lg:py-9">
+      <div className="flex max-w-[600px] m-auto text-center py-4 lg:mb-[100px] lg:py-9">
         <form className="m-auto">
           <div className="flex flex-col gap-3">
             <input
