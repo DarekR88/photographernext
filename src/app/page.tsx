@@ -115,7 +115,7 @@ export default function Home() {
         <p className="py-3 lg:py-10 lg:w-[600px] z-10">
           <span>A</span>t Insight photography we capture the highest quality
           images from the best angles for any event. You never have to worry
-          about missing a precious moment. If you're looking for family
+          about missing a precious moment. If you&#39;re looking for family
           portraits, look no more. Take your family photos in your own home. We
           bring the studio to you.
         </p>
