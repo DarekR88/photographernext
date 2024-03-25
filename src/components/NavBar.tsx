@@ -47,7 +47,7 @@ export function NavBar() {
         >
           <Image src={PhoneSvg} alt="pfp" width={23} />
         </a>
-        <Link href={"/"} className="text-xl z-0 px-3">
+        <Link href={"/"} className="lg:text-4xl z-0 px-3">
           Ion Photography
         </Link>
         <a
