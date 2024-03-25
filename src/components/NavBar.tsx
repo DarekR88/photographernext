@@ -48,7 +48,7 @@ export function NavBar() {
           <Image src={PhoneSvg} alt="pfp" width={23} />
         </a>
         <Link href={"/"} className="text-xl z-0 px-3">
-          Insight Photography
+          Ion Photography
         </Link>
         <a
           href="tel:408-761-4606"
